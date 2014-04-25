@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="80dp"
+    android:layout_weight="7"
+    android:background="@android:color/transparent"
+    android:orientation="vertical"
+    android:weightSum="2" >
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:background="@android:color/transparent"
+        android:orientation="horizontal"
+        android:weightSum="5" >
+
+        <TextView
+            android:id="@+id/tv_Patient"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="2"
+            android:gravity="center"
+            android:text="Vivek Bhargav"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:background="#E96D63"
+            android:typeface="sans" />
+
+        <TextView
+            android:id="@+id/tv_ViewInfo"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="3"
+            android:fontFamily="assasin"
+            android:gravity="center"
+            android:background="#7FCA9F"
+            android:text="View Info"
+            android:textSize="13sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:background="@android:color/transparent"
+        android:orientation="horizontal"
+        android:weightSum="2" >
+
+        <TextView
+            android:id="@+id/tv_Date"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:paddingLeft="15dp"
+            android:gravity="center"
+            android:text="12-May-2014"
+            android:background="#E96D63"
+            android:textSize="20sp"
+            android:typeface="sans" />
+
+        <TextView
+            android:id="@+id/tv_Time"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:fontFamily="assasin"
+            android:paddingLeft="15dp"
+            android:background="#E96D63"
+            android:text="12:05:00 PM"
+            android:textSize="13sp" />
+    </LinearLayout>
+
+</LinearLayout>

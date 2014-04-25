@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:background="#FCFEFD"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/DoctorHome"
+        android:layout_marginBottom="30dp"
+        android:textColor="#7FCB9F"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+
+
+        <TextView
+            android:id="@+id/tv_schedule"
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:gravity="center"
+            android:background="#E96D63"
+            android:onClick="onClick"
+            android:clickable="true"
+            android:textColor="#4A789C"
+            android:text="@string/Schedule" />
+    
+    
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="180dp"
+        android:weightSum="3"
+        android:orientation="vertical" >
+        
+        <TextView
+            android:id="@+id/tv_PresMed"
+            android:layout_weight="1"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:gravity="center"
+            android:onClick="onClick"
+            android:clickable="true"
+            android:background="#85C1F5"
+            android:text="@string/PresMedicine" />
+
+        <TextView
+            android:id="@+id/tv_PresTest"
+            android:layout_weight="1"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:gravity="center"
+            android:background="#F4BA70"
+            android:onClick="onClick"
+            android:clickable="true"
+            android:text="@string/PresTest" />
+        
+        <TextView
+            android:id="@+id/tv_PatientInfo"
+            android:layout_weight="1"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:gravity="center"
+            android:onClick="onClick"
+            android:background="#7FCA9F"
+            android:clickable="true"
+            android:text="@string/GetPatientInfo" />
+        
+        
+    </LinearLayout>
+
+</LinearLayout>

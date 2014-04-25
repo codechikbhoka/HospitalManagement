@@ -1,0 +1,10 @@
+The Project Consists of two parts :
+1) Backend Coding in php
+2) Frontend Graphical user interface for Android Operating system coded in java and xml
+
+To test the project :
+i) Install HospitalMangement.apk on your mobile
+2) Put Project Folder on the server and start the server
+3) import db_hospital in your phpmyadmin
+4) start application on mobile and put server address on welcome screen
+5) You are done with the setup. Start using app: 

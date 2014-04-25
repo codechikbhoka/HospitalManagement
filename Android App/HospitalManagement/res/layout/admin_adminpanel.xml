@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#6E6568"
+    android:gravity="center"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="30dp"
+        android:text="Admin Panel"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="#7FCB9F" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:orientation="horizontal"
+        android:weightSum="1" >
+
+        <TextView
+            android:id="@+id/Choose"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="#E96D63"
+            android:clickable="true"
+            android:gravity="center"
+            android:onClick="onClick"
+            android:text="Choose"
+            android:textColor="#FFFFFF" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="250dp"
+        android:orientation="vertical"
+        android:weightSum="5" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:orientation="horizontal"
+            android:weightSum="2" >
+
+            <TextView
+                android:id="@+id/tvtv1"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="#85C1F5"
+                android:clickable="true"
+                android:gravity="center"
+                android:onClick="onClick"
+                android:text="Register Doctor" />
+
+            <TextView
+                android:id="@+id/tvtv2"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="#F4BA70"
+                android:clickable="true"
+                android:gravity="center"
+                android:onClick="onClick"
+                android:text="Add Pharmacy" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:orientation="horizontal"
+            android:weightSum="2" >
+
+            <TextView
+                android:id="@+id/tvtv3"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="#7FCA9F"
+                android:clickable="true"
+                android:gravity="center"
+                android:onClick="onClick"
+                android:text="Add Lab" />
+
+            <TextView
+                android:id="@+id/tvtv4"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="#4A789C"
+                android:clickable="true"
+                android:gravity="center"
+                android:onClick="onClick"
+                android:text="Add Department" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:orientation="horizontal"
+            android:weightSum="2" >
+
+            <TextView
+                android:id="@+id/tvtv5"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="#F4BA70"
+                android:clickable="true"
+                android:gravity="center"
+                android:onClick="onClick"
+                android:text="Add Ward" />
+
+            <TextView
+                android:id="@+id/tvtv6"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="#7FCA9F"
+                android:clickable="true"
+                android:gravity="center"
+                android:onClick="onClick"
+                android:text="Add Ambulance" />
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

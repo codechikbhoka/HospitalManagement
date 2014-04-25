@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FCFEFD"
+    android:gravity="center"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="30dp"
+        android:text="Prescribe Medicine"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="#7FCB9F" />
+
+    <TextView
+        android:id="@+id/tv_S1"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginLeft="10dp"
+        android:background="#85C1F5"
+        android:clickable="true"
+        android:gravity="center"
+        android:onClick="onClick"
+        android:text="Select Patient" />
+    
+    <TextView
+        android:id="@+id/tv_S3"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginLeft="10dp"
+        android:background="#7FCA9F"
+        android:clickable="true"
+        android:gravity="center"
+        android:onClick="onClick"
+        android:text="Select Medicine" />
+
+    <TextView
+        android:id="@+id/tv_S2"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginRight="10dp"
+        android:background="#F4BA70"
+        android:clickable="true"
+        android:gravity="center"
+        android:onClick="onClick"
+        android:text="Select Pharmacy" />
+    <TextView
+        android:id="@+id/tv_S6"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginRight="10dp"
+        android:background="#85C1F5"
+        android:clickable="true"
+        android:gravity="center"
+        android:onClick="onClick"
+        android:text="Select No. Of Days" />
+
+    <TextView
+        android:id="@+id/tv_S4"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginLeft="10dp"
+        android:background="#E96D63"
+        android:clickable="true"
+        android:gravity="center"
+        android:onClick="onClick"
+        android:text="Select Dosage Per day" />
+    
+    <EditText 
+        android:id="@+id/et_S5"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginRight="10dp"
+        android:background="#7FCA9F"
+        android:gravity="center"
+        android:hint="Enter Disease"
+        />
+    
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginTop="20dp"
+        android:orientation="horizontal"
+        android:weightSum="4" >
+
+        <TextView
+            android:id="@+id/tv_T1"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="#F4BA70"
+            android:clickable="false"
+            android:gravity="center"
+            android:visibility="gone"
+            android:onClick="onClick"
+            android:text="NULL"
+            android:textColor="#4A789C" />
+
+        <TextView
+            android:id="@+id/tv_T2"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="#4A789C"
+            android:clickable="false"
+            android:gravity="center"
+            android:visibility="gone"
+            android:onClick="onClick"
+            android:text="NULL"
+            android:textColor="#FFFFFF" />
+        
+        <TextView
+            android:id="@+id/tv_T3"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="#F4BA70"
+            android:clickable="true"
+            android:visibility="gone"
+            android:gravity="center"
+            android:onClick="onClick"
+            android:text="NULL"
+            android:textColor="#4A789C" />
+
+        <TextView
+            android:id="@+id/tv_T4"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="#4A789C"
+            android:clickable="true"
+            android:gravity="center"
+            android:onClick="onClick"
+            android:visibility="gone"
+            android:text="NULL"
+            android:textColor="#FFFFFF" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginTop="20dp"
+        android:orientation="horizontal"
+        android:weightSum="2" >
+
+        <TextView
+            android:id="@+id/tv_B1"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="10dp"
+            android:layout_weight="1"
+            android:background="#F4BA70"
+            android:clickable="true"
+            android:gravity="center"
+            android:onClick="onClick"
+            android:text="More"
+            android:textColor="#4A789C" />
+
+        <TextView
+            android:id="@+id/tv_B2"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="20dp"
+            android:layout_weight="1"
+            android:background="#4A789C"
+            android:clickable="true"
+            android:gravity="center"
+            android:onClick="onClick"
+            android:text="Done"
+            android:textColor="#FFFFFF" />
+    </LinearLayout>
+
+</LinearLayout>

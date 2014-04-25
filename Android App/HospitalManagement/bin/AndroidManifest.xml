@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.bhargav.hospitalmanagement"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="16"
+        android:targetSdkVersion="19" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="com.bhargav.hospitalmanagement.MainActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        
+        <activity
+            android:name="com.bhargav.hospitalmanagement.Register"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name="com.bhargav.hospitalmanagement.Login"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name="com.bhargav.hospitalmanagement.RegLogin"
+            android:label="@string/app_name" >
+        </activity>
+        
+        <activity
+            android:name="com.bhargav.hospitalmanagement.user.Userpage"
+            android:label="@string/app_name" >
+        </activity>
+        
+        <activity
+            android:name="com.bhargav.hospitalmanagement.user.Appointment"
+            android:label="@string/app_name" >
+        </activity>
+        
+        <activity
+            android:name="com.bhargav.hospitalmanagement.user.UserHistory"
+            android:label="@string/app_name" >
+        </activity>
+        
+        <activity
+            android:name="com.bhargav.hospitalmanagement.doctor.DoctorPage"
+            android:label="@string/app_name" >
+        </activity>
+        
+        <activity
+            android:name="com.bhargav.hospitalmanagement.doctor.DoctorSchedule"
+            android:label="@string/app_name" >
+        </activity>
+        
+        <activity
+            android:name="com.bhargav.hospitalmanagement.doctor.PrescribeMedicine"
+            android:label="@string/app_name" >
+        </activity>
+        
+        <activity
+            android:name="com.bhargav.hospitalmanagement.doctor.PrescribeTest"
+            android:label="@string/app_name" >
+        </activity>
+        
+        <activity
+            android:name="com.bhargav.hospitalmanagement.user.EditUser"
+            android:label="@string/app_name" >
+        </activity>
+        
+        <activity
+            android:name="com.bhargav.hospitalmanagement.admin.AdminPanel"
+            android:label="@string/app_name" >
+        </activity>
+
+        <activity
+            android:name="com.bhargav.hospitalmanagement.admin.AddPharmacy"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name="com.bhargav.hospitalmanagement.admin.AddLab"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name="com.bhargav.hospitalmanagement.admin.AddDepartment"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name="com.bhargav.hospitalmanagement.admin.AddWard"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name="com.bhargav.hospitalmanagement.admin.AddAmbulance"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name="com.bhargav.hospitalmanagement.doctor.RegisterDoctor"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name="com.bhargav.hospitalmanagement.user.MyBill"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name="com.bhargav.hospitalmanagement.user.PrescribedTests"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name="com.bhargav.hospitalmanagement.user.PrescribedMedicines"
+            android:label="@string/app_name" >
+        </activity>
+    </application>
+
+</manifest>
